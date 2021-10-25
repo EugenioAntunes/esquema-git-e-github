@@ -15,7 +15,7 @@
 3. <code>git status</code>: checa o status e se o arquivo foi adicionado;
 4. <code>git commit -m "mensagem desejada"</code>: envia o arquivo adicionado para um repositório local;
 
-   *O GitHub esta mudando o Branch principal de Master para Main e se você o a empresa optar por fazer a mundança entre as branches use o seguinte comando: git branch -m "main";
+   *O GitHub esta mudando o Branch principal de Master para Main e se você o a empresa optar por fazer a mudança entre as branches use o seguinte comando: <code>git branch -M "main"</code>;
 
 5. Acesse sua conta no GitHub(suponho que já tenha uma), clique no sinal de '+' no canto superior direito e seleciona a opção de criar um novo repositório. Após criado o novo repositório copie a Url e volte para o GitBash;
 6. <code>git remote add origin 'URL copiada'</code>: faz a conexão entre o repositório local e o repositório remoto;
@@ -23,7 +23,7 @@
 
 ### Versionamento de Arquivos:
 1. Abra o GitBash na pasta de origem
-2. <code>git add.</code>: envia as modificações feitas para a área de Stage;
+2. <code>git add  .</code>: envia as modificações feitas para a área de Stage;
 3. <code>git commit -m "mensagem desejada"</code>: manda o arquivo para o repositório local;
 4. <code>git push origin main</code>: envia o arquivo para o repositório remoto.
 
